@@ -58,14 +58,39 @@
 .flex1 {
     border: 2px solid red;
     width: 400px;
-   
+    flex: 1;
 }
 
 .flex2 {
     border: 2px solid blue;
+    background-color: bisque;
+    border-radius: 25px;    
     flex: 2;
 }
 
 .flex3 {
     border: 2px solid green;
+    flex: 1;
+}
+
+.posdemo {
+    font-size: 2em;
+    font-family: Optima;
+    display: flex;
+    
+
+}
+
+.posdemo-a {
+    background-color: yellow;
+    position: fixed;
+    z-index: 1;
+}
+
+.posdemo-b{
+    background-color: lightcoral;
+    position: relative;
+    top: 10px;
+    left: 10px;
+ 
 }
