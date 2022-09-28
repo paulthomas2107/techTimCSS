@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+
+}
+
+#hello1 {
+    color: blueviolet;
+    font-size: 20px;
+}   
+
+#hello2 {
+    color: goldenrod;
+    font-size: 20px;
+}
+
+.p-tag {  
+    color: brown;
+    font-size: 30px;
+}
+
+.div1 .p-tag {
+    color:blueviolet
+}
+
+.div2 .p-tag {
+    color:deeppink
+}
+
+.div2 p {
+    background-color: aquamarine;
+    width: 20%;
+}
+
+.color1 {
+    color: rgb(122, 222, 189);
+    font-size: 40px;
+}
